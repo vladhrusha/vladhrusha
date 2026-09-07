@@ -42,10 +42,10 @@ Currently deep in Next.js App Router, TypeScript and design-system work.
   </tr>
 </table>
 
-### Selected work
+<!-- ### Selected work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [lifely](https://github.com/vladhrusha/lifely_private) | `one line on what it does →` | Next · Node · Mongo |
 | [findbait_ai](https://github.com/vladhrusha/findbait_ai) | `one line on what it does →` | React · TS |
-| [portfolio](https://github.com/vladhrusha/portfolio) | `one line on what it does →` | Next · MUI |
+| [portfolio](https://github.com/vladhrusha/portfolio) | `one line on what it does →` | Next · MUI | -->

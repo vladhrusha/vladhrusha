@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas"><style>body{margin:0;background:#f0eee9;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 system-ui,sans-serif;color:rgba(0,0,0,.55)}.dv-card{max-width:100%;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}.dv-next{margin:22px 0 0;font:12px/1.5 system-ui,sans-serif;color:rgba(0,0,0,.5)}.dv-tlab{font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;color:rgba(0,0,0,.35);margin:6px 0 0}a{color:#2a78d6}a:hover{color:#1a5eae}</style></helmet>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">github.com/vladhrusha — profile README, three structures · dark + light</span></div>
+<div class="dv-opts">
+
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>Centered &amp; badged — the classic profile card</div>
+
+<p class="dv-tlab">dark</p>
+<div class="dv-card" style="width:820px;background:#0d1117;border:1px solid #3d444d;color:#e6edf3;padding:32px 40px 36px;box-sizing:border-box">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:10px">
+    <h1 style="margin:0;font-size:32px;font-weight:600;line-height:1.25;letter-spacing:-.4px">Hey there! I'm Vladyslav Hrusha</h1>
+    <p style="margin:0;font-size:17px;font-weight:400;color:#9198a1">Frontend Developer &nbsp;·&nbsp; React, Next.js &nbsp;·&nbsp; MERN stack</p>
+    <div style="display:flex;gap:6px;margin-top:6px">
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">LinkedIn</span><span style="background:#0a66c2;color:#fff;padding:0 7px;display:flex;align-items:center">connect</span></span>
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">Telegram</span><span style="background:#26a5e4;color:#fff;padding:0 7px;display:flex;align-items:center">@vladhrusha</span></span>
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">Email</span><span style="background:#ea4335;color:#fff;padding:0 7px;display:flex;align-items:center">say hi</span></span>
+    </div>
+  </div>
+  <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><div style="display:flex;justify-content:center;margin:22px 0 4px"><img src="main.png" width="300" alt="illustration" style="display:block"></div></sc-if>
+  <hr style="border:0;border-top:1px solid #3d444d;margin:26px 0 22px">
+  <h3 style="margin:0 0 14px;font-size:18px;font-weight:600">Languages and Tools</h3>
+  <div style="display:flex;flex-wrap:wrap;gap:7px">
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/react.png" width="16" height="16" alt="">React</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/nextjs.png" width="16" height="16" alt="">Next.js</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/typescript.png" width="16" height="16" alt="">TypeScript</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/javascript.png" width="16" height="16" alt="">JavaScript</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/nodejs.png" width="16" height="16" alt="">Node.js</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/redux.svg" width="16" height="16" alt="">Redux</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#151b23;border:1px solid #3d444d;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#e6edf3"><img src="icons/materialui.svg" width="16" height="16" alt="">MUI</span>
+  </div>
+  <hr style="border:0;border-top:1px solid #3d444d;margin:24px 0 20px">
+  <table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.5">
+    <thead><tr>
+      <th style="border:1px solid #3d444d;padding:8px 13px;text-align:left;font-weight:600;background:#151b23;width:50%">Currently</th>
+      <th style="border:1px solid #3d444d;padding:8px 13px;text-align:left;font-weight:600;background:#151b23;width:50%">Open to</th>
+    </tr></thead>
+    <tbody><tr>
+      <td style="border:1px solid #3d444d;padding:8px 13px;color:#e6edf3">Building <strong>Lifely</strong> — a Next.js + Node habit app</td>
+      <td style="border:1px solid #3d444d;padding:8px 13px;color:#e6edf3">Frontend roles, freelance, open-source</td>
+    </tr></tbody>
+  </table>
+</div>
+
+<p class="dv-tlab">light</p>
+<div class="dv-card" style="width:820px;background:#fff;border:1px solid #d1d9e0;color:#1f2328;padding:32px 40px 36px;box-sizing:border-box">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:10px">
+    <h1 style="margin:0;font-size:32px;font-weight:600;line-height:1.25;letter-spacing:-.4px">Hey there! I'm Vladyslav Hrusha</h1>
+    <p style="margin:0;font-size:17px;font-weight:400;color:#59636e">Frontend Developer &nbsp;·&nbsp; React, Next.js &nbsp;·&nbsp; MERN stack</p>
+    <div style="display:flex;gap:6px;margin-top:6px">
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">LinkedIn</span><span style="background:#0a66c2;color:#fff;padding:0 7px;display:flex;align-items:center">connect</span></span>
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">Telegram</span><span style="background:#26a5e4;color:#fff;padding:0 7px;display:flex;align-items:center">@vladhrusha</span></span>
+      <span style="display:inline-flex;height:20px;border-radius:3px;overflow:hidden;font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"><span style="background:#414141;color:#fff;padding:0 7px;display:flex;align-items:center">Email</span><span style="background:#ea4335;color:#fff;padding:0 7px;display:flex;align-items:center">say hi</span></span>
+    </div>
+  </div>
+  <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><div style="display:flex;justify-content:center;margin:22px 0 4px"><img src="main.png" width="300" alt="illustration" style="display:block"></div></sc-if>
+  <hr style="border:0;border-top:1px solid #d1d9e0;margin:26px 0 22px">
+  <h3 style="margin:0 0 14px;font-size:18px;font-weight:600">Languages and Tools</h3>
+  <div style="display:flex;flex-wrap:wrap;gap:7px">
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/react.png" width="16" height="16" alt="">React</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/nextjs.png" width="16" height="16" alt="">Next.js</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/typescript.png" width="16" height="16" alt="">TypeScript</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/javascript.png" width="16" height="16" alt="">JavaScript</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/nodejs.png" width="16" height="16" alt="">Node.js</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/redux.svg" width="16" height="16" alt="">Redux</span>
+    <span style="display:inline-flex;align-items:center;height:26px;border-radius:4px;background:#f6f8fa;border:1px solid #d1d9e0;padding:0 10px 0 7px;gap:7px;font:500 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#1f2328"><img src="icons/materialui.svg" width="16" height="16" alt="">MUI</span>
+  </div>
+  <hr style="border:0;border-top:1px solid #d1d9e0;margin:24px 0 20px">
+  <table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.5">
+    <thead><tr>
+      <th style="border:1px solid #d1d9e0;padding:8px 13px;text-align:left;font-weight:600;background:#f6f8fa;width:50%">Currently</th>
+      <th style="border:1px solid #d1d9e0;padding:8px 13px;text-align:left;font-weight:600;background:#f6f8fa;width:50%">Open to</th>
+    </tr></thead>
+    <tbody><tr>
+      <td style="border:1px solid #d1d9e0;padding:8px 13px">Building <strong>Lifely</strong> — a Next.js + Node habit app</td>
+      <td style="border:1px solid #d1d9e0;padding:8px 13px">Frontend roles, freelance, open-source</td>
+    </tr></tbody>
+  </table>
+</div>
+</div>
+
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Table-driven — stack as a grid, work as rows</div>
+
+<p class="dv-tlab">dark</p>
+<div class="dv-card" style="width:820px;background:#0d1117;border:1px solid #3d444d;color:#e6edf3;padding:32px 40px 36px;box-sizing:border-box">
+  <div style="display:flex;align-items:flex-start;gap:28px">
+    <div style="flex:1;min-width:0">
+      <h1 style="margin:0 0 6px;font-size:30px;font-weight:600;line-height:1.2;letter-spacing:-.4px">Vladyslav Hrusha</h1>
+      <p style="margin:0 0 14px;font-size:16px;color:#9198a1">Frontend Developer — React &amp; Next.js, MERN stack</p>
+      <p style="margin:0;font-size:15px;line-height:1.6;text-wrap:pretty">I build fast, accessible product front-ends and the Node services behind them. Currently deep in Next.js App Router, TypeScript and design-system work.</p>
+    </div>
+    <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><img src="main.png" width="230" alt="illustration" style="display:block;flex:none"></sc-if>
+  </div>
+  <hr style="border:0;border-top:1px solid #3d444d;margin:26px 0 18px">
+  <h3 style="margin:0 0 13px;font-size:17px;font-weight:600">Languages and Tools</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:13px">
+    <tbody>
+      <tr>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;width:25%"><img src="icons/react.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">React</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;width:25%;background:#151b23"><img src="icons/nextjs.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">Next.js</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;width:25%"><img src="icons/typescript.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">TypeScript</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;width:25%;background:#151b23"><img src="icons/javascript.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">JavaScript</span></td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;background:#151b23"><img src="icons/nodejs.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">Node.js</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center"><img src="icons/redux.svg" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">Redux</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;background:#151b23"><img src="icons/materialui.svg" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#9198a1">MaterialUI</span></td>
+        <td style="border:1px solid #3d444d;padding:14px 8px;text-align:center;color:#656c76;font:400 12px ui-monospace,Menlo,monospace">+ next up</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 style="margin:26px 0 13px;font-size:17px;font-weight:600">Selected work</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.5">
+    <thead><tr>
+      <th style="border:1px solid #3d444d;padding:8px 13px;text-align:left;font-weight:600;background:#151b23">Project</th>
+      <th style="border:1px solid #3d444d;padding:8px 13px;text-align:left;font-weight:600;background:#151b23">What it is</th>
+      <th style="border:1px solid #3d444d;padding:8px 13px;text-align:left;font-weight:600;background:#151b23;width:150px">Stack</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #3d444d;padding:8px 13px"><a href="#1b" style="color:#4493f8;text-decoration:none;font-weight:500">lifely</a></td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;color:#9198a1;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;color:#9198a1">Next · Node · Mongo</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #3d444d;padding:8px 13px;background:#151b23"><a href="#1b" style="color:#4493f8;text-decoration:none;font-weight:500">findbait_ai</a></td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;background:#151b23;color:#9198a1;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;background:#151b23;color:#9198a1">React · TS</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #3d444d;padding:8px 13px"><a href="#1b" style="color:#4493f8;text-decoration:none;font-weight:500">portfolio</a></td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;color:#9198a1;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #3d444d;padding:8px 13px;color:#9198a1">Next · MUI</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="dv-tlab">light</p>
+<div class="dv-card" style="width:820px;background:#fff;border:1px solid #d1d9e0;color:#1f2328;padding:32px 40px 36px;box-sizing:border-box">
+  <div style="display:flex;align-items:flex-start;gap:28px">
+    <div style="flex:1;min-width:0">
+      <h1 style="margin:0 0 6px;font-size:30px;font-weight:600;line-height:1.2;letter-spacing:-.4px">Vladyslav Hrusha</h1>
+      <p style="margin:0 0 14px;font-size:16px;color:#59636e">Frontend Developer — React &amp; Next.js, MERN stack</p>
+      <p style="margin:0;font-size:15px;line-height:1.6;text-wrap:pretty">I build fast, accessible product front-ends and the Node services behind them. Currently deep in Next.js App Router, TypeScript and design-system work.</p>
+    </div>
+    <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><img src="main.png" width="230" alt="illustration" style="display:block;flex:none"></sc-if>
+  </div>
+  <hr style="border:0;border-top:1px solid #d1d9e0;margin:26px 0 18px">
+  <h3 style="margin:0 0 13px;font-size:17px;font-weight:600">Languages and Tools</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:13px">
+    <tbody>
+      <tr>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;width:25%"><img src="icons/react.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">React</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;width:25%;background:#f6f8fa"><img src="icons/nextjs.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">Next.js</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;width:25%"><img src="icons/typescript.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">TypeScript</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;width:25%;background:#f6f8fa"><img src="icons/javascript.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">JavaScript</span></td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;background:#f6f8fa"><img src="icons/nodejs.png" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">Node.js</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center"><img src="icons/redux.svg" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">Redux</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;background:#f6f8fa"><img src="icons/materialui.svg" width="34" height="34" alt="" style="display:block;margin:0 auto 7px"><span style="color:#59636e">MaterialUI</span></td>
+        <td style="border:1px solid #d1d9e0;padding:14px 8px;text-align:center;color:#818b98;font:400 12px ui-monospace,Menlo,monospace">+ next up</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 style="margin:26px 0 13px;font-size:17px;font-weight:600">Selected work</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.5">
+    <thead><tr>
+      <th style="border:1px solid #d1d9e0;padding:8px 13px;text-align:left;font-weight:600;background:#f6f8fa">Project</th>
+      <th style="border:1px solid #d1d9e0;padding:8px 13px;text-align:left;font-weight:600;background:#f6f8fa">What it is</th>
+      <th style="border:1px solid #d1d9e0;padding:8px 13px;text-align:left;font-weight:600;background:#f6f8fa;width:150px">Stack</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px"><a href="#1b" style="color:#0969da;text-decoration:none;font-weight:500">lifely</a></td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;color:#59636e;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;color:#59636e">Next · Node · Mongo</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;background:#f6f8fa"><a href="#1b" style="color:#0969da;text-decoration:none;font-weight:500">findbait_ai</a></td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;background:#f6f8fa;color:#59636e;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;background:#f6f8fa;color:#59636e">React · TS</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px"><a href="#1b" style="color:#0969da;text-decoration:none;font-weight:500">portfolio</a></td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;color:#59636e;font:400 13px ui-monospace,Menlo,monospace">one line on what it does →</td>
+        <td style="border:1px solid #d1d9e0;padding:8px 13px;color:#59636e">Next · MUI</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Editorial — big type, icon strip, stat cards</div>
+
+<p class="dv-tlab">dark</p>
+<div class="dv-card" style="width:820px;background:#0d1117;border:1px solid #3d444d;color:#e6edf3;padding:36px 40px 34px;box-sizing:border-box">
+  <p style="margin:0 0 12px;font:500 12px ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:#9198a1">frontend developer · kyiv, ua</p>
+  <h1 style="margin:0 0 16px;font-size:44px;font-weight:700;line-height:1.05;letter-spacing:-1.2px">Vladyslav<br>Hrusha</h1>
+  <p style="margin:0;max-width:56ch;font-size:16px;line-height:1.65;color:#e6edf3;text-wrap:pretty">React and Next.js for the interface, Node and Mongo for everything behind it. I like the boring parts: types that hold, states that don't surprise, pages that load.</p>
+  <div style="display:flex;align-items:center;gap:22px;margin:28px 0 6px;flex-wrap:wrap">
+    <img src="icons/react.png" width="38" height="38" alt="React">
+    <img src="icons/nextjs.png" width="38" height="38" alt="Next.js">
+    <img src="icons/typescript.png" width="38" height="38" alt="TypeScript">
+    <img src="icons/javascript.png" width="38" height="38" alt="JavaScript">
+    <img src="icons/nodejs.png" width="38" height="38" alt="Node.js">
+    <img src="icons/redux.svg" width="38" height="38" alt="Redux">
+    <img src="icons/materialui.svg" width="38" height="38" alt="MaterialUI">
+  </div>
+  <hr style="border:0;border-top:1px solid #3d444d;margin:26px 0 20px">
+  <sc-if value="{{ showStatsCards }}" hint-placeholder-val="{{ true }}">
+  <div style="display:flex;gap:16px">
+    <div style="flex:1;height:150px;border:1px solid #3d444d;border-radius:6px;background:repeating-linear-gradient(135deg,#151b23 0 8px,#0d1117 8px 16px);display:flex;align-items:center;justify-content:center"><span style="font:400 12px ui-monospace,Menlo,monospace;color:#9198a1">github-readme-stats card</span></div>
+    <div style="flex:1;height:150px;border:1px solid #3d444d;border-radius:6px;background:repeating-linear-gradient(135deg,#151b23 0 8px,#0d1117 8px 16px);display:flex;align-items:center;justify-content:center"><span style="font:400 12px ui-monospace,Menlo,monospace;color:#9198a1">top-languages card</span></div>
+  </div>
+  </sc-if>
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:26px">
+    <p style="margin:0;font-size:15px;line-height:2">
+      <a href="#1c" style="color:#4493f8;text-decoration:none">LinkedIn</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#4493f8;text-decoration:none">Telegram</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#4493f8;text-decoration:none">Email</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#4493f8;text-decoration:none">Portfolio</a>
+    </p>
+    <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><img src="main.png" width="150" alt="illustration" style="display:block;flex:none;opacity:.9"></sc-if>
+  </div>
+</div>
+
+<p class="dv-tlab">light</p>
+<div class="dv-card" style="width:820px;background:#fff;border:1px solid #d1d9e0;color:#1f2328;padding:36px 40px 34px;box-sizing:border-box">
+  <p style="margin:0 0 12px;font:500 12px ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:#59636e">frontend developer · kyiv, ua</p>
+  <h1 style="margin:0 0 16px;font-size:44px;font-weight:700;line-height:1.05;letter-spacing:-1.2px">Vladyslav<br>Hrusha</h1>
+  <p style="margin:0;max-width:56ch;font-size:16px;line-height:1.65;text-wrap:pretty">React and Next.js for the interface, Node and Mongo for everything behind it. I like the boring parts: types that hold, states that don't surprise, pages that load.</p>
+  <div style="display:flex;align-items:center;gap:22px;margin:28px 0 6px;flex-wrap:wrap">
+    <img src="icons/react.png" width="38" height="38" alt="React">
+    <img src="icons/nextjs.png" width="38" height="38" alt="Next.js">
+    <img src="icons/typescript.png" width="38" height="38" alt="TypeScript">
+    <img src="icons/javascript.png" width="38" height="38" alt="JavaScript">
+    <img src="icons/nodejs.png" width="38" height="38" alt="Node.js">
+    <img src="icons/redux.svg" width="38" height="38" alt="Redux">
+    <img src="icons/materialui.svg" width="38" height="38" alt="MaterialUI">
+  </div>
+  <hr style="border:0;border-top:1px solid #d1d9e0;margin:26px 0 20px">
+  <sc-if value="{{ showStatsCards }}" hint-placeholder-val="{{ true }}">
+  <div style="display:flex;gap:16px">
+    <div style="flex:1;height:150px;border:1px solid #d1d9e0;border-radius:6px;background:repeating-linear-gradient(135deg,#f6f8fa 0 8px,#fff 8px 16px);display:flex;align-items:center;justify-content:center"><span style="font:400 12px ui-monospace,Menlo,monospace;color:#59636e">github-readme-stats card</span></div>
+    <div style="flex:1;height:150px;border:1px solid #d1d9e0;border-radius:6px;background:repeating-linear-gradient(135deg,#f6f8fa 0 8px,#fff 8px 16px);display:flex;align-items:center;justify-content:center"><span style="font:400 12px ui-monospace,Menlo,monospace;color:#59636e">top-languages card</span></div>
+  </div>
+  </sc-if>
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:26px">
+    <p style="margin:0;font-size:15px;line-height:2">
+      <a href="#1c" style="color:#0969da;text-decoration:none">LinkedIn</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#0969da;text-decoration:none">Telegram</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#0969da;text-decoration:none">Email</a> &nbsp;/&nbsp;
+      <a href="#1c" style="color:#0969da;text-decoration:none">Portfolio</a>
+    </p>
+    <sc-if value="{{ showIllustration }}" hint-placeholder-val="{{ true }}"><img src="main.png" width="150" alt="illustration" style="display:block;flex:none;opacity:.9"></sc-if>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Try next: "write the real README.md for <a class="dv-oid" href="#1b">1b</a>" · "<a class="dv-oid" href="#1c">1c</a> but with the badge row from <a class="dv-oid" href="#1a">1a</a>" · "the illustration doesn't fit me — swap in a photo"</p>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showIllustration&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;showStatsCards&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showIllustration: this.props.showIllustration ?? true,
+      showStatsCards: this.props.showStatsCards ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
