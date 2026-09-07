@@ -2,10 +2,10 @@
 
 # Vladyslav Hrusha
 
-Frontend Developer — React &amp; Next.js, MERN stack
+Software Developer — React &amp; Next.js, Node &amp; NestJS
 
-I build fast, accessible product front-ends and the Node services behind them.
-Currently deep in Next.js App Router, TypeScript and design-system work.
+I build fast, accessible front-ends and the Node services behind them.
+Currently designing and developing solo products
 
 <br clear="right">
 
@@ -26,7 +26,7 @@ Currently deep in Next.js App Router, TypeScript and design-system work.
     <td align="center" width="34%"><img src="public/icons/typescript.png" width="34" height="34" alt=""><br>TypeScript</td>
   </tr>
   <tr>
-    <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td>
+    <!-- <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td> -->
     <td align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="public/icons/nodejs-dark.png">
@@ -34,10 +34,10 @@ Currently deep in Next.js App Router, TypeScript and design-system work.
       </picture>
       <br>Node.js
     </td>
-    <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td>
+    <!-- <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td> -->
   </tr>
   <tr>
-    <td align="center"><img src="public/icons/materialui.svg" width="34" height="34" alt=""><br>MaterialUI</td>
+    <!-- <td align="center"><img src="public/icons/materialui.svg" width="34" height="34" alt=""><br>MaterialUI</td> -->
     <td align="center" colspan="2"><code>+ next up</code></td>
   </tr>
 </table>
