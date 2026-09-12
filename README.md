@@ -15,6 +15,7 @@ Currently designing and developing solo products
 
 <table>
   <tr>
+    <td align="center" width="33%"><img src="public/icons/typescript.png" width="34" height="34" alt=""><br>TypeScript</td>
     <td align="center" width="33%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="public/icons/nextjs-dark.png">
@@ -22,11 +23,10 @@ Currently designing and developing solo products
       </picture>
       <br>Next.js
     </td>
-    <td align="center" width="33%"><img src="public/icons/nestjs.svg" width="34" height="34" alt=""><br>NestJS</td>
-    <td align="center" width="34%"><img src="public/icons/typescript.png" width="34" height="34" alt=""><br>TypeScript</td>
+    <td align="center" width="34%"><img src="public/icons/tailwindcss.svg" width="34" height="34" alt=""><br>Tailwind CSS</td>
   </tr>
   <tr>
-    <td align="center"><img src="public/icons/tailwindcss.svg" width="34" height="34" alt=""><br>Tailwind CSS</td>
+    <td align="center"><img src="public/icons/nestjs.svg" width="34" height="34" alt=""><br>NestJS</td>
     <td align="center"><img src="public/icons/postgresql.svg" width="34" height="34" alt=""><br>PostgreSQL</td>
     <td align="center"><img src="public/icons/claude.svg" width="34" height="34" alt=""><br>Claude</td>
   </tr>
