@@ -2,7 +2,7 @@
 
 #### Full-Stack Developer — TypeScript, Next.js &amp; NestJS
 
-I build fast, accessible Next.js frontends and NestJS backends. Currently designing and developing solo products.
+I design and build fast, accessible web products. Currently building my own products.
 
 ---
 
