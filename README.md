@@ -11,7 +11,7 @@ Currently designing and developing solo products
 
 ---
 
-### Languages and Tools
+### Tech Stack
 
 <table>
   <tr>
@@ -30,12 +30,11 @@ Currently designing and developing solo products
     <td align="center"><img src="public/icons/postgresql.svg" width="34" height="34" alt=""><br>PostgreSQL</td>
     <td align="center"><img src="public/icons/claude.svg" width="34" height="34" alt=""><br>Claude</td>
   </tr>
-  <tr>
-    <!-- <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td> -->
-    <!-- <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td> -->
-    <!-- <td align="center"><img src="public/icons/materialui.svg" width="34" height="34" alt=""><br>MaterialUI</td> -->
-    <td align="center" colspan="3"><code>+ next up</code></td>
-  </tr>
+  <!-- <tr>
+    <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td>
+    <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td>
+    <td align="center"><img src="public/icons/materialui.svg" width="34" height="34" alt=""><br>MaterialUI</td>
+  </tr> -->
 </table>
 
 <!-- ### Selected work
