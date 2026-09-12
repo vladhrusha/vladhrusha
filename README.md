@@ -1,13 +1,11 @@
-# Vladyslav Hrusha
+<img src="public/main.png" width="230" alt="Illustration of a team building a web interface">
 
-<img src="public/main.png" width="230" align="right" alt="Illustration of a team building a web interface">
+# Vladyslav Hrusha
 
 #### Software Developer — Next.js &amp; NestJS
 
 I build fast, accessible front-ends and the NestJS services behind them.
 Currently designing and developing solo products
-
-<br clear="right">
 
 ---
 
