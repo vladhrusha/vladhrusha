@@ -2,7 +2,7 @@
 
 #### Full-Stack Developer — TypeScript, Next.js &amp; NestJS
 
-I design and build fast, accessible web products. Currently building my own products.
+I design and build fast, accessible web products from idea to launch.
 
 ---
 
