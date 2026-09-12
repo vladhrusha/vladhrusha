@@ -2,9 +2,9 @@
 
 # Vladyslav Hrusha
 
-Software Developer — React &amp; Next.js, Node &amp; NestJS
+Software Developer — Next.js &amp; NestJS
 
-I build fast, accessible front-ends and the Node services behind them.
+I build fast, accessible front-ends and the NestJS services behind them.
 Currently designing and developing solo products
 
 <br clear="right">
@@ -15,7 +15,6 @@ Currently designing and developing solo products
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="public/icons/react.png" width="34" height="34" alt=""><br>React</td>
     <td align="center" width="33%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="public/icons/nextjs-dark.png">
@@ -23,22 +22,19 @@ Currently designing and developing solo products
       </picture>
       <br>Next.js
     </td>
+    <td align="center" width="33%"><img src="public/icons/nestjs.svg" width="34" height="34" alt=""><br>NestJS</td>
     <td align="center" width="34%"><img src="public/icons/typescript.png" width="34" height="34" alt=""><br>TypeScript</td>
   </tr>
   <tr>
-    <!-- <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td> -->
-    <td align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="public/icons/nodejs-dark.png">
-        <img src="public/icons/nodejs.png" width="34" height="34" alt="">
-      </picture>
-      <br>Node.js
-    </td>
-    <!-- <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td> -->
+    <td align="center"><img src="public/icons/tailwindcss.svg" width="34" height="34" alt=""><br>Tailwind CSS</td>
+    <td align="center"><img src="public/icons/postgresql.svg" width="34" height="34" alt=""><br>PostgreSQL</td>
+    <td align="center"><img src="public/icons/claude.svg" width="34" height="34" alt=""><br>Claude</td>
   </tr>
   <tr>
+    <!-- <td align="center"><img src="public/icons/javascript.png" width="34" height="34" alt=""><br>JavaScript</td> -->
+    <!-- <td align="center"><img src="public/icons/redux.svg" width="34" height="34" alt=""><br>Redux</td> -->
     <!-- <td align="center"><img src="public/icons/materialui.svg" width="34" height="34" alt=""><br>MaterialUI</td> -->
-    <td align="center" colspan="2"><code>+ next up</code></td>
+    <td align="center" colspan="3"><code>+ next up</code></td>
   </tr>
 </table>
 
