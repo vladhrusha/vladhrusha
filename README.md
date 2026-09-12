@@ -1,6 +1,6 @@
 # Vladyslav Hrusha
 
-#### Software Developer — Next.js &amp; NestJS
+#### Full-Stack Developer — TypeScript, Next.js &amp; NestJS
 
 I build fast, accessible Next.js frontends and NestJS backends. Currently designing and developing solo products.
 
