@@ -1,6 +1,6 @@
-<img src="public/main.png" width="230" align="right" alt="Illustration of a team building a web interface">
-
 # Vladyslav Hrusha
+
+<img src="public/main.png" width="230" align="right" alt="Illustration of a team building a web interface">
 
 #### Software Developer — Next.js &amp; NestJS
 
